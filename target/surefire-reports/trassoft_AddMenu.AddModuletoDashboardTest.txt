@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: trassoft_AddMenu.AddModuletoDashboardTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.416 s - in trassoft_AddMenu.AddModuletoDashboardTest

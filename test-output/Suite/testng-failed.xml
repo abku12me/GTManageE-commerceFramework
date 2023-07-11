@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="transsoft_GenericUtility.ITransform"/>
+    <listener class-name="transsoft_GenericUtility.ListenerImplementation"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="trassoft_AddMenu.AddModuletoDashboardTest">
+        <methods>
+          <include name="logoutFromUserApp"/>
+          <include name="logoutFromAdminApp"/>
+          <include name="LoginToAdminApplication"/>
+          <include name="closeBrowser"/>
+          <include name="closeDB"/>
+          <include name="DBConnection"/>
+          <include name="launchBrowser"/>
+          <include name="LoginToUserApplication"/>
+          <include name="addModuleToDashboard"/>
+        </methods>
+      </class> <!-- trassoft_AddMenu.AddModuletoDashboardTest -->
+      <class name="transsoft_Restaurant.CreateRestaurantTest">
+        <methods>
+          <include name="logoutFromUserApp"/>
+          <include name="logoutFromAdminApp"/>
+          <include name="LoginToAdminApplication"/>
+          <include name="closeBrowser"/>
+          <include name="createRestaurant"/>
+          <include name="closeDB"/>
+          <include name="DBConnection"/>
+          <include name="LoginToUserApplication"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- transsoft_Restaurant.CreateRestaurantTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

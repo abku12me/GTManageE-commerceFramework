@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: transsoft_UsermoduleRestaurant.CreaterestaurantPlacedOrderTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.983 s - in transsoft_UsermoduleRestaurant.CreaterestaurantPlacedOrderTest
