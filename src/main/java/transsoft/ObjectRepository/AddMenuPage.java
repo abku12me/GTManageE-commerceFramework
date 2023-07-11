@@ -9,7 +9,8 @@ import transsoft_GenericUtility.WebDriverUtilities;
 
 public class AddMenuPage extends WebDriverUtilities{
 	
-	
+	//welcome
+	//lets begin
 	@FindBy(name="d_name")
 	private WebElement dishnameEdTx;
 	
@@ -96,7 +97,7 @@ public class AddMenuPage extends WebDriverUtilities{
 	}
 	
 	
-	//Thank you
+	
 	
 	
 	
