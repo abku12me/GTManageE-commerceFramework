@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="transsoft_UsermoduleRestaurant.CreaterestaurantPlacedOrderTest">
+      <class name="practice.BrokenLinks">
         <methods>
-          <include name="createrestaurantPlacedOrder"/>
+          <include name="getAllBrokenLinks"/>
         </methods>
-      </class> <!-- transsoft_UsermoduleRestaurant.CreaterestaurantPlacedOrderTest -->
+      </class> <!-- practice.BrokenLinks -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

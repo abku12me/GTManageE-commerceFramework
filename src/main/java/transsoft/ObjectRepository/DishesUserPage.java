@@ -9,7 +9,7 @@ import transsoft_GenericUtility.WebDriverUtilities;
 
 public class DishesUserPage extends WebDriverUtilities{
 	
-	@FindBy(xpath="//a[text()='French onion soup']/ancestor::div[@class='food-item']/descendant::input[@value='Add To Cart']")
+	@FindBy(xpath="//a[text()='Pink Spaghetti Gamberoni']/ancestor::div[@class='food-item']/descendant::input[@value='Add To Cart']")
 	private WebElement fooditemRest;
 	
 	@FindBy(linkText="Checkout")
